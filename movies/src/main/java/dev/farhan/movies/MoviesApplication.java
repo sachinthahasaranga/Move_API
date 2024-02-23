@@ -14,9 +14,9 @@ public class MoviesApplication {
 		SpringApplication.run(MoviesApplication.class, args);
 	}
 
-	@GetMapping("/")
-	public String apiRoot() {
-		return "HEllo World";
-	}
+//	@GetMapping("/location1")
+//	public String apiRoot() {
+//		return "HEllo World";
+//	}
 
 }
